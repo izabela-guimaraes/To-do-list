@@ -2,7 +2,7 @@
 Task List, allowing you to mark tasks as completed, delete them, all data being stored in json localStorage , thus keeping your data always up to date.
 
 <h3>Final result:</h3>
-<img src="./assets/" alt="Application result" width="300em">
+<img src="./assets/result.png" alt="Application result" width="400em">
 
 <br>
 <br>
@@ -17,10 +17,13 @@ Task List, allowing you to mark tasks as completed, delete them, all data being 
 
 - [x] Updated data save
 
+<br>
+<a href="https://github.com/izabela-guimaraes/PlayStation-Store" 
+target="blank"> See the application working </a>
 
 
-<h4>To see another project <a href="https://github.com/izabela-guimaraes/PlayStation-Store" 
-target="blank">click here</a></h4>
+<h5>To see another project <a href="https://github.com/izabela-guimaraes/PlayStation-Store" 
+target="blank">click here</a></h5>
 
 <a href="https://www.figma.com/file/w3KAgO5zsHYbjrfdvESuQE/todo-list---MP5D---1">Figma link</a>
 
