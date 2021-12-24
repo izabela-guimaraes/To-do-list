@@ -18,7 +18,7 @@ Task List, allowing you to mark tasks as completed, delete them, all data being 
 - [x] Updated data save
 
 <br>
-<a href="https://github.com/izabela-guimaraes/PlayStation-Store" 
+<a href="https://izabela-guimaraes.github.io/To-do-list/" 
 target="blank"> See the application working </a>
 
 
