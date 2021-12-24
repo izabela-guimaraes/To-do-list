@@ -117,3 +117,68 @@ body{
     background-color: #d4f88d;
     text-decoration: line-through;
 }
+
+@media (max-width: 600px) and (min-width: 400px){
+
+    *{
+        overflow:hidden;
+    }
+    #button-rocket , #button-delete {
+        opacity: 1;
+    }
+
+    #container {
+        width: 95%;
+    }
+    #input-main{
+        width: 60%;
+        height: 30px;
+    }
+    #button-add{
+        width: 120px;
+        height: 30px;
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 400px){
+
+    *{
+        overflow:hidden;
+    }
+    #button-rocket , #button-delete {
+        opacity: 1;
+    }
+
+    #container {
+        width: 95%;
+    }
+
+    #input-main {
+        width: 170px;
+        height: 30px;
+        font-size: 13px;
+    }
+
+    #button-add {
+        width: 110px;
+        height: 30px;
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 370px) {
+
+    #input-main {
+        width: 130px;
+        height: 30px;
+        font-size: 13px;
+    }
+
+    #button-add {
+        width: 110px;
+        height: 30px;
+        font-size: 13px;
+    }
+
+}

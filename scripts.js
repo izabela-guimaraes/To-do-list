@@ -5,13 +5,21 @@ const fullList = document.getElementById("tasks")
 const deleteButton = document.getElementById("button-delete")
 const rocketButton = document.getElementById("button-rocket")
 
+
+
 document.addEventListener("keypress", function (e) { //send data functionality by pressing "enter"
     if (e.key === 'Enter') {
         var btn = document.querySelector("#button-add");
         btn.click();
     }
 });
-
+/* //or
+document.addEventListener("keypress" , function(e) {
+    //send data functionality by pressing "enter"
+    if(e.key === "Enter"){
+        arrayTask()
+    }
+}) */
 let newTask = []
 
 let arrayTask = () => {
@@ -52,15 +60,24 @@ let buttonconcluded = (index) => {
 
 function taskSave(){
     let save = localStorage.getItem("task")
-    newTask = JSON.parse(save)
-    arrayTask()
+    if(save){
+        newTask = JSON.parse(save)
+        arrayTask()
+    }
+
 }
 
 button.addEventListener("click", () => {
-    newTask.push({
-        task: input.value,
-        concluded: false
-    })
+    if(input.value){
+        newTask.push({
+            task: input.value,
+            concluded: false
+        })
+    }else{
+        alert("Adicione uma tarefa!")
+    }
+  
+    input.value = ""
     arrayTask()
 })
 
