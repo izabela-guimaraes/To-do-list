@@ -22,8 +22,8 @@ Task List, allowing you to mark tasks as completed, delete them, all data being 
 target="blank"> See the application working </a>
 
 
-<h5>To see another project <a href="https://github.com/izabela-guimaraes/PlayStation-Store" 
-target="blank">click here</a></h5>
+<h4>To see another project <a href="https://github.com/izabela-guimaraes/PlayStation-Store" 
+target="blank">click here</a></h4>
 
 <a href="https://www.figma.com/file/w3KAgO5zsHYbjrfdvESuQE/todo-list---MP5D---1">Figma link</a>
 
